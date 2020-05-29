@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "34048836686",
+    "firebase_url": "https://smoking-rentals.firebaseio.com",
+    "project_id": "smoking-rentals",
+    "storage_bucket": "smoking-rentals.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34048836686:android:d8a7d791a2b9d58b22af1f",
+        "android_client_info": {
+          "package_name": "com.smoketrees.smokingrentals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34048836686-sfpc67efg3ogcklhaofh5dc784tdeljr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smoketrees.smokingrentals",
+            "certificate_hash": "109b26790f428109059d62b7c190e9c224370d0f"
+          }
+        },
+        {
+          "client_id": "34048836686-p257v7mckfs1fknn0ga9a94eicc444vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwFeUhqsiPjr1t2maR5zcAS-ixjO7QNrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34048836686-p257v7mckfs1fknn0ga9a94eicc444vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

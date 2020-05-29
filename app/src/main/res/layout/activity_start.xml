@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/re"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/akronim"
+        android:text="Smoking\nRentals"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="64sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:textColorHint="@android:color/white"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="40dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_back"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_back2"
+        android:layout_gravity="center_horizontal"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:elevation="10dp">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:contentDescription="Sign in with Google"
+            android:layout_height="50dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/signInGoogle"
+            android:background="#fff"
+            android:src="@drawable/sign_in"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
